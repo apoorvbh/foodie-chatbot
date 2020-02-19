@@ -1,0 +1,121 @@
+session_config:
+  session_expiration_time: 0.0
+  carry_over_slots_to_new_session: true
+intents:
+- affirm
+- deny
+- stop
+- greet
+- goodbye
+- inform
+- restaurant_search:
+    use_entities: []
+entities:
+- GPE
+- PRODUCT
+- CARDINAL
+- MONEY
+- LOC
+- average_budget
+- email_id
+- location
+- cuisine
+slots:
+  average_budget:
+    type: unfeaturized
+    auto_fill: false
+  cuisine:
+    type: unfeaturized
+    auto_fill: false
+  email_id:
+    type: unfeaturized
+  is_search_results_found:
+    type: categorical
+    values:
+    - 'true'
+    - 'false'
+  is_search_stopped:
+    type: categorical
+    values:
+    - 'true'
+    - 'false'
+  location:
+    type: unfeaturized
+    auto_fill: false
+  send_email:
+    type: unfeaturized
+templates:
+  utter_ask_location:
+  - text: Which location would you be interested in?
+  utter_ask_cuisine:
+  - buttons:
+    - payload: Chinese
+      title: Chinese
+    - payload: Mexican
+      title: Mexican
+    - payload: Italian
+      title: Italian
+    - payload: American
+      title: American
+    - payload: South Indian
+      title: South Indian
+    - payload: North Indian
+      title: North Indian
+    text: What kind of cuisine would you like?
+  utter_ask_average_budget:
+  - buttons:
+    - payload: Lesser than Rs. 300
+      title: Lesser than Rs. 300
+    - payload: Rs. 300 to 700
+      title: Rs. 300 to 700
+    - payload: More than Rs. 700
+      title: More than Rs. 700
+    text: What's the average budget for 2 people you are looking for?
+  utter_ask_send_email:
+  - buttons:
+    - payload: Yes
+      title: Yes
+    - payload: No
+      title: No
+    text: Do you want the details of the top 10 restaurants on email?
+  utter_ask_email_id:
+  - text: Please provide your email id
+  - text: To what email id should I send it to?
+  utter_location_not_served:
+  - text: We do not operate in that area yet. Can you please specify some other location
+  utter_email_id_not_valid:
+  - text: Provided email id is not valid. Please try again
+  utter_option_not_available:
+  - text: Provided option is not supported yet. Please select an option from the given
+      list
+  utter_mail_sent:
+  - text: Mail sent to {email_id}. Please have a look
+  - text: Sent. Bon Appetit!
+  utter_mail_not_sent:
+  - text: Sorry. I am not able to sent a mail right now
+  utter_search_results_not_found:
+  - text: No search results found for provided options. Please try again
+  utter_unable_to_search:
+  - text: Not able to currently look for restaurants. Please try again
+  utter_slots_values:
+  - text: "I am going to run a restaurant search using the following parameters:\n\
+      \ - Location: {location}\n - Cuisine: {cuisine}\n - Average budget for two:\
+      \ {average_budget}"
+  utter_greet:
+  - text: Hey there! How may I help you!
+  - text: Hi, How can I help you!
+  - text: Hey, How is it going. How May I help you today
+  utter_goodbye:
+  - text: Goodbye
+  - text: Bye-bye
+  utter_default:
+  - text: I am sorry. I am not able to understand. Can you please repeat
+  utter_ask_rephrase:
+  - text: I am not able to understand clearly. Kindly rephrase
+actions:
+- utter_default
+- utter_greet
+- utter_goodbye
+forms:
+- restaurant_search_form
+- email_send_form

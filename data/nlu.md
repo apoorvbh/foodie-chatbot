@@ -1,0 +1,566 @@
+## intent:affirm
+- yes
+- yep
+- yep that's right
+- yep yep
+- yeah right
+- indeed
+- that's right
+- ok
+- ok send it to [xyz@sth.edu](email_id)
+- ok send to [bhardwaj.apoorvs@gmail.com](email_id)  
+- okay please send to [kindresantosh@yahoo.com]
+- great
+- that's great
+- great let's do it
+- right, thank you
+- right thanks
+- right, thanks
+- correct
+- that's correct
+- that is correct
+- this is correct
+- this is right
+- this is ok
+- great choice
+- great decision
+- let's do it
+- let's do this
+- great let's do this
+- yes yes
+- right
+- yea
+- yea right
+- yeah yeah
+- yea yea
+- yes right
+- i love that
+- I love that
+- I love it
+- I like it
+- I like that
+- yes. Please send it to [xyz@sth.edu](email_id)
+- yes. Please send it to [apoorvbhardwaj.mlai9@iiit.net](email_id)
+- yes. Please send it to [abc@xyz.com](email_id)
+- yes please
+- yup right
+- yup yup
+- Yes
+- ye
+- ye right
+- ye ye
+- sounds really good
+- yes please send to [xyz@sth.edu](email_id)
+- yes please send to [apoorv.bhardwaj@centricconsulting.com](email_id)
+- send to [apoorvbhardwaj.mlai9@iiit.net](email_id)
+- yes send to [apoorv.bhardwaj@centricconsulting.com](email_id)
+- yes Please send to [bhardwaj.apoorvs@gmail.com](email_id)
+- yes please send to [bhardwaj.apoorvs@gmail.com](email_id)
+- send to [bhardwaj.apoorvs@gmail.com](email_id)
+- send it to [bhardwaj.apoorvs@gmail.com](email_id)
+- send to [apoorv.bhardwaj@centricconsulting.com](email_id)
+- yes can you send it to [bhardwaj.apoorvs@gmail.com](email_id)
+
+## intent:deny
+- no
+- no thanks
+- no thank you
+- No
+- no new selection
+- no new answer
+- do you have other options to select
+- do you have something else
+- do you have anything else
+- no this does not work for me
+- no this is not working for me
+- no it doesn't work
+- not required
+- not necessary
+- not needed
+- anything else?
+- anything different
+- anything else
+- nah thank you
+- nah that's it
+- nah its ok
+- nah. I am good
+- nah I am cool
+- lets skip it for now
+- skip it
+- nah lets skip
+
+## intent:stop
+- ok then you cant help me
+- you can't help me
+- you can't help me with what i need
+- i guess you can't help me then
+- ok i guess you can't help me
+- that's not what i want
+- ok, but that doesnt help me
+- this is leading to nothing
+- this is leading to nowhere
+- this leads to nothing
+- this conversation is not really helpful
+- this conversation is not leading anywhere
+- this conversation is not heading in the right direction
+- you cannot help me with what I want
+- I think you cant help me
+- hm i don't think you can do what i want
+- stop
+- stop go back
+- do you get anything?
+- do you have anything else?
+- and that's it?
+- and that's all
+- please leave
+- nothing else?
+- leave it
+- leave this
+- leave now
+- end
+
+## intent:greet
+- howdy
+- hey there
+- hi
+- good morning
+- good afternoon
+- good evening
+- dear
+- Hi dear
+- Hello dear
+- Hey dear
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- greetings everybody
+- greetings everyone
+- hello everybody
+- hello is anybody there
+- hello anyone there
+- hello is anyone there
+- hello can you help me
+- hi can you help me
+- hallo can you help me
+- hello there can you help me
+- hello robot
+- hi hi
+- hey
+- hey hey
+- hello there
+- hello
+- yo
+- YO!
+- yo wassup
+- wassup
+- hola
+- hi?
+- hey bot!
+- hello friend
+- Hola
+- heeey
+- hallo
+- hallo friend
+- hallo team
+- hallo bot
+- howdy
+
+## intent:goodbye
+- bye
+- goodbye
+- farewell
+- Bye bye
+- have a good one
+- okay cool good bye thank you
+- okay thank you good bye
+- you rock
+- this rocks
+- You rock!
+- and thats all thank you and good bye
+- thank you and good bye
+- sorry about my mistakes thank you good bye
+- thank you good bye
+- okay thank you goodbye
+- thank you goodbye
+- thank you
+- okay thank you
+- thanks goodbye
+- thank you very much goodbye
+- thanks
+- thank you bye
+- Thank you
+- thanks
+- good bye
+- goobye
+- thank you goobye
+- thanks goobye
+- thank you and goobye
+
+## intent:restaurant_search
+- I’m hungry. Looking out for some good restaurants
+- i'm looking for a place to eat
+- I want to grab lunch
+- I am searching for a dinner spot
+- search for restaurants
+- show me restaurants
+- Can you suggest some good restaurants in [Rishikesh](location)
+- Can you suggest some good restaurants in [kolkata](location)
+- I am looking for some restaurants in [Delhi](location).
+- I am looking for some restaurants in [Bengaluru](location:bangalore)
+- I am looking for some restaurants in [Mumbai](location)
+- please find me a restaurant in [ahmedabad](location)
+- please help me to find restaurants in [pune](location)
+- Please find me a restaurant in [bengaluru](location:bangalore)
+- show me [Chinese](cuisine) restaurants
+- I am looking for [mexican](cuisine:Mexican) food
+- I am looking for [north indian](cuisine:North Indian)
+- i am looking for a [Italian](cuisine) restaurant
+- can you find me a [Chinese](cuisine) restaurant
+- i am looking for an [american](cuisine:American) spot called olaolaolaolaolaola
+- i am looking for an [american](cuisine:American) cafe in [manchester city](location) location
+- i am looking for an [american](cuisine:American) restaurant in [san francisco](location) location
+- i am looking for an [american](cuisine:American) restorant
+- please find me [Chinese](cuisine) restaurant in [delhi](location)
+- please show me a few [italian](cuisine) restaurants in [bengaluru](location:bangalore)
+- show me [Chinese](cuisine) restaurants in the [ajmer](location)
+- show me a [Mexican](cuisine) place in the [agra](location)
+- show me a [Italian](cuisine) place in the [agra](location)
+- show me a [South Indian](cuisine) place in the [manali](location)
+- show me [South Indian](cuisine) restaurants with budget of [>700](average_budget:More than Rs. 700)
+- show me a place in [manali](location) between [300-700](average_budget:Rs. 300 to 700)
+- I’m hungry. Looking out for some good [Chinese](cuisine) restaurants in [chandigarh](location)
+- can you suggest restaurants in [ajmer](location) for [North Indian](cuisine) food with [lesser than 300](average_budget:Lesser than Rs. 300) budget 
+- can you suggest restaurants in [vasai-vihar city](location) for [North Indian](cuisine) food with [300 to 700](average_budget:Rs. 300 to 700) budget 
+- i am looking for a place to eat in [hyderabad](location)
+- i am looking for restaurant in [hyderabad](location)
+- i am looking for restaurant in [gurgaon](location)
+- i am looking for a restaurant in [hyderabad](location)
+- i am looking for restaurant in [mumbai](location)
+- looking for restaurant in [hyderabad](location)
+- i am looking for restaurant in [delhi](location)
+- i am looking for a restaurant in [mumbai](location)
+- i am looking for a restaurant
+- i am looking for restaurant
+- i am looking for restaurant in [ajmer](location)
+- i am looking for  a place to eat
+- i am looking for  a place
+- I am looking for a place to eat in [delhi](location)
+- i am looking for restaurant in [delhi](location) location
+- i am hungry
+- I am looking for restaurant to eat
+- i am looking for restaurant to eat
+- i am looking for a restaurant to eat
+- i am looking for a [chinese](cuisine:Chinese) restaurant
+- i am looking for a place to eat
+- can you find me [chinese](cuisine:Chinese) restaurant
+- i am looking for some [chinese](cuisine:Chinese) restaurant
+- I am looking for a restaurant to eat
+- I am looking for a place to eat in [Delhi](location)
+- i am looking for a place eat
+- I am looking for a place to ear
+- I am looking for a place to eat
+- can you please find me a [italian](cuisine:Italian) restaurant in [mumbai](location)
+- i am hungry for [chinese](cuisine:Chinese)
+- i am looking for place to eat in [shimla](location)
+- i am looking for restaurant in [mumbai](location)
+- looking for restaurant in [hyderabad](location)
+- i am looking for a restaurant in [mumbai](location)
+- [gurugram](location:gurgaon) food
+- food
+- search for food
+- [gurgaon](location) restaurant
+- [goa](location) restaurant
+- [ajmer](location) restaurant
+- food in [shimla](location)
+- food in [gurugram](location:gurgaon)
+- looking for [american](cuisine:American) food in [helsinki](location)
+- hungry in [new york](location)
+- hungry in [jaipur](location)
+- hungry in [gurgaon](location) for [chinese](cuisine:Chinese) food
+- hungry in [kollam](location) for [south indian](cuisine:South Indian) cuisine
+- looking for restaurant
+- looking for [chinese](cuisine:Chinese) restaurant in [new york](location)
+- looking for [chinese](cuisine:Chinese) restaurant in [jaipur](location)
+- looking for [chinese](cuisine:Chinese) food in [ajmer](location)
+- looking for [chinese](cuisine:Chinese) restaurant in [bangalore](location)
+- looking for [italian](cuisine:Italian) in [ajmer](location)
+- looking for [italian](cuisine:Italian) food in [delhi](location)
+- looking for [italian](cuisine:Italian) restaurant in [jaipur](location) for [500](average_budget) a piece
+- looking for [italian](cuisine:Italian) restaurant in [jaipur](location) location for [500](average_budget) a piece
+- looking for [italian](cuisine:Italian) restaurant in [jaipur](location) for [500](average_budget) per person
+- looking for [italian](cuisine:Italian) restro in [jaipur](location) for [450](average_budget) per person
+- looking for restaurnat
+- looking for food
+- looking for [chinese](cuisine:Chinese) restaurant in [raipur](location)
+- looking for restaurant in [patna](location)
+- looking for [south indian](cuisine:South Indian) place in [pondicherry](location) for [500](average_budget) per person
+- looking for [mexican](cuisine:Mexican) restro in [mumbai](location) for around [1000](average_budget) per person
+- looking for [italian](cuisine:Italian) restaurant in [rishikesh](location)
+- looking for [italian](cuisine:Italian) restaurant in [ajmer](location) for [1000](average_budget) per person
+- looking for [italian](cuisine:Italian) restro in [rishikesh](location) for [1200](average_budget) per person
+- can you find me [italian](cuisine:Italian) restaurant in [rishikesh](location) for [1200](average_budget) per person
+- looking for [north indian](cuisine:North Indian) food in [rishikesh](location)
+- looking for [italian](cuisine:Italian) restaurant in [hyderabad](location) for [1000](average_budget) per person
+- can you suggest me [mexican](cuisine:Mexican) cafe in [kashmir](location)
+- looking for [italian](cuisine:Italian) food in [rishikesh](location)
+- looking for restaurant in [rishikesh](location)
+- looking for [south indian](cuisine:South Indian) restaurant in [kannauj](location) for [1300](average_budget) per person
+- looking for restaurant in [kannauj](location)
+- can me find me some restaurants in [calcutta](location:kolkata)
+- looking for [chinese](cuisine:Chinese) restaurant in [bangalore](location)
+- show me [south indian](cuisine:South Indian) restaurants in [vadodara](location)
+- looking for [north indian](cuisine:North Indian) food in [thiruvananthapuram](location)
+- please show me a few [italian](cuisine) restaurants in [bangalore](location)
+- [italian](cuisine:Italian) restaurant in [ajmer](location) for [1000](average_budget)
+- looking for [italian](cuisine:Italian) restaurant in [ajmer](location) for [700](average_budget)
+- looking for [italian](cuisine:Italian) restorant in [ajmer](location)
+- looking for [italian](cuisine:Italian) restaurant in [ajmer](location) for [1200](average_budget)
+- looking for some [south indian](cuisine:South Indian) restaurants in [ajmer](location) for [1000](average_budget) per person
+- can you find me some restaurants
+- please show me a few [italian](cuisine:Italian) restaurants in [bengaluru](location:bangalore)
+- search for [north indian](cuisine:North Indian) food in [jaipur](location) for [750](average_budget)
+- search for [north indian](cuisine:North Indian) restaurant in [jaipur](location) for [770](average_budget)
+- search for [north indian](cuisine:North Indian) restaurant in [jaipur](location) for [500](average_budget)
+- search for [north indian](cuisine:North Indian) food in [ajmer](location) for [750](average_budget) a pice
+- looking for [italian](cuisine:Italian) restaurant in [ajmer](location) for [560](average_budget)
+- search for [italian](cuisine:Italian) restaurant in [allahabad](location:prayagraj) for [750](average_budget)
+- search [north indian](cuisine:North Indian) food in [ajmer](location) for [750](average_budget)
+- I am looking for [italian](cuisine:Italian) cafe in [rishikesh](location) for [1000](average_budget) per person
+- suggest [mexican](cuisine:Mexican) food in [gandhinagar](location) for [1000](average_budget)
+- [pondicherry](location) [south indian](cuisine:South Indian) restaurant
+- [chandigarh](location) [mexican](cuisine:Mexican) restaurant
+- [delhi](location) [italian](cuisine:Italian) restaurant
+- [goa](location) [south indian](cuisine:South Indian) cafe
+- [jaipur](location) [north indian](cuisine:North Indian) restaurant
+- [vasai-virar city](location) [north indian](cuisine:North Indian) restaurant
+- [chinese](cuisine:Chinese) restaurant in [gurgaon](location)
+- [chinese](cuisine:Chinese) restorant in [new york](location)
+- [italian](cuisine:Italian) restorant in [new zealand](location)
+- [south indian](cuisine:South Indian) restorant in [kollam](location)
+- looking for restaurant for [more than 700](average_budget:More than Rs. 700)
+- search for [north indian](cuisine:North Indian) food within [300 to 700](average_budget:Rs. 300 to 700)
+- looking for [italian](cuisine:Italian) restaurant for [more than 700](average_budget:More than Rs. 700)
+- looking for [american](cuisine:American) restorant for [&gt;700](average_budget:More than Rs. 700)
+- can you find me restaurant in [vasai-virar city](location) for [1200](average_budget)
+- Please find me a restaurant in [banglore](location:bangalore) for [>700](average_budget:More than Rs. 700)
+- Can you suggest some good cafe in [goa](location) for [more than 700](average_budget:More than Rs. 700)
+- [ajmer](location) for [700](average_budget) a piece
+- [ajmer](location) for [1200](average_budget) per person
+- [american](cuisine:American) in [bhiwandi](location) within [300-700](average_budget:Rs. 300 to 700)
+- [mexican](cuisine:Mexican) in [gurgaon](location) within [300-700](average_budget:Rs. 300 to 700)
+- [chinese](cuisine:Chinese) in [gurgaon](location)
+
+## intent:inform
+- in [kollam](location)
+- [kollam](location)
+- [new zealand](location)
+- [ajmer](location)
+- [bengaluru](location:bangalore)
+- [bhilai](location)
+- in [New York](location:new york)
+- anywhere in the [bhiwandi](location)
+- anywhere in the [kollam](location)
+- anywhere in [ajmer](location)
+- anywhere in [chennai](location)
+- in [gurugram](location:gurgaon)
+- in [ajmer](location)
+- [Lithuania](location)
+- Oh, sorry, in [Italy](location)
+- in [delhi](location)
+- in [kota](location)
+- [new jersey](location)
+- [mumbai](location)
+- [delhi](location)
+- [kota](location)
+- [Chinese](cuisine)
+- [Mexican](cuisine)
+- [Italian](cuisine)
+- [American](cuisine)
+- [South Indian](cuisine)
+- [North Indian](cuisine)
+- [south indian](cuisine:South Indian)
+- [More than Rs. 700](average_budget)
+- [more than rs. 700](average_budget:More than Rs. 700)
+- [More than 700](average_budget:More than Rs. 700)
+- [more than 700](average_budget:More than Rs. 700)
+- [>700](average_budget:More than Rs. 700)
+- [Lesser than Rs. 300](average_budget)
+- [lesser than rs. 300](average_budget:Lesser than Rs. 300)
+- [Less than 300](average_budget:Lesser than Rs. 300)
+- [less than 300](average_budget:Lesser than Rs. 300)
+- [<300](average_budget:Lesser than Rs. 300)
+- [Rs. 300 to 700](average_budget)
+- [300 to 700](average_budget:Rs. 300 to 700)
+- [300-700](average_budget:Rs. 300 to 700) range
+- [300 to 700](average_budget:Rs. 300 to 700) range
+- [Rs. 300 to 700](average_budget) range
+- [abc@xyz.com](email_id)
+- [bhardwaj.apoorvs@gmail.com](email_id)
+- [apoorvbhardwaj.mlai9@iiitb.net](email_id)
+- [kindresantosh@yahoo.com](email_id)
+- [apoorv.bhardwaj@centricconsulting.com](email_id)
+- [abc.123@xyz.com](email_id)
+- [jaipur](location)
+- [hyderabad](location)
+- [french](cuisine)
+- [north indian](cuisine:North Indian)
+- [mexican](cuisine:Mexican)
+- [san francisco](location)
+- [american](cuisine)
+- [italian](cuisine)
+- [london](location)
+- [300-700](average_budget:Rs. 300 to 700)
+- [chinese](cuisine:Chinese)
+- [thai](cuisine)
+- [american](cuisine:American)
+- [sangli](location)
+- [warangal](location)
+- [kakinada](location)
+- [asian](cuisine)
+- [assamese](cuisine)
+- [vasai-virar city](location)
+- [new zealand](location)
+- [new south wales](location)
+- [japan](location)
+- [hong kong](location)
+- [hong kong](location) location
+- [san francisco](location) location
+- [kakinada](location) location
+- [vietnamese](cuisine)
+- [budapest](location)
+- around [500](average_budget)
+- [670](average_budget)
+- [250](average_budget)
+- somewhere around [250](average_budget)
+- somewhere around [greater than 700](average_budget:More than Rs. 700)
+- [650](average_budget)
+- [rajahmundry](location)
+- [kolkata](location)
+- [450](average_budget)
+- [350](average_budget)
+- [chennai](location)
+- [787](average_budget)
+- in [madras](location:chennai)
+- [1000](average_budget)
+- [bangalore](location)
+- [rishikesh](location)
+- [700](average_budget)
+- [1002](average_budget)
+- [100](average_budget)
+- [740](average_budget)
+- [900](average_budget)
+- somewhere around [1000](average_budget)
+- [120](average_budget)
+- [abc@123.com](email_id)
+- [allahabad](location)
+- somewhere around [allahabad](location)
+- somewhere around [kerala](location)
+- somewhere around [manchester city](location)
+- somewhere around [vasai-vihar city](location)
+- somewhere around [goa](location)
+- [gandhinagar](location)
+- [ahmedabad](location)
+- Okay. Show me some in [Allahabad](location)
+- I’ll prefer [american](cuisine:American)
+- I’ll prefer [chinese](cuisine:Chinese)
+- I’ll prefer [chines](cuisine:Chinese)
+- Okay. Show me some in [rajahmundry](location)
+- Okay. Show me some in [jaipur](location)
+- Okay. Show me some in [kerala](location)
+- i'll go with [north indian](cuisine:North Indian)
+- how about [rajahmundry](location)
+- how about [delhi](location)
+- how about [budapest](location)
+- how about [kerala](location)
+- how about [italian](cuisine:Italian)
+- I’ll prefer [italian](cuisine:Italian)
+
+## synonym:American
+- american
+
+## synonym:Chinese
+- chines
+- Chines
+- chinese
+
+## synonym:Italian
+- italian
+
+## synonym:Mexican
+- mexican
+
+## synonym:North Indian
+- north indian
+
+## synonym:South Indian
+- south indian
+
+## synonym:More than Rs. 700
+- more than 700
+- more than rs. 700
+- >700
+- &gt;700
+- More than 700
+
+## synonym:Lesser than Rs. 300
+- <300
+- &lt;300
+- less than 300
+- lesser than rs. 300
+- Less than 300
+
+## synonym:Rs. 300 to 700
+- 300-700
+- 300 to 700
+
+## synonym:bangalore
+- Bangalore
+- Bengaluru
+- banglore
+- bengaluru
+
+## synonym:chennai
+- madras
+
+## synonym:delhi
+- Delhi
+- Dilli
+- New Delhi
+
+## synonym:gurgaon
+- Gurgaon
+- gurugram
+- Gurugram
+
+## synonym:kolkata
+- calcutta
+
+## synonym:mumbai
+- Bombay
+- Mumbai
+- bombai
+
+## synonym:prayagraj
+- allahabad
+
+## regex:average_budget
+- [0-9]+
+
+## regex:email_id
+- ^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$
+
+## regex:greet
+- hey[^\s]*
+- he+y
+
+## lookup:cities.txt
+  data\cities\cities.txt

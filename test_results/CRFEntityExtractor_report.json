@@ -1,0 +1,44 @@
+{
+  "location": {
+    "precision": 1.0,
+    "recall": 0.864321608040201,
+    "f1-score": 0.9272237196765498,
+    "support": 199
+  },
+  "email_id": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22
+  },
+  "cuisine": {
+    "precision": 1.0,
+    "recall": 0.9703703703703703,
+    "f1-score": 0.9849624060150376,
+    "support": 135
+  },
+  "average_budget": {
+    "precision": 1.0,
+    "recall": 0.9708029197080292,
+    "f1-score": 0.9851851851851852,
+    "support": 137
+  },
+  "micro avg": {
+    "precision": 1.0,
+    "recall": 0.9290060851926978,
+    "f1-score": 0.9631966351209253,
+    "support": 493
+  },
+  "macro avg": {
+    "precision": 1.0,
+    "recall": 0.9513737245296502,
+    "f1-score": 0.9743428277191932,
+    "support": 493
+  },
+  "weighted avg": {
+    "precision": 1.0,
+    "recall": 0.9290060851926978,
+    "f1-score": 0.9623890778864784,
+    "support": 493
+  }
+}

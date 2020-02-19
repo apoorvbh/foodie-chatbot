@@ -1,0 +1,85 @@
+{
+  "goodbye": {
+    "precision": 0.9230769230769231,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.888888888888889,
+    "support": 28,
+    "confused_with": {
+      "affirm": 2,
+      "restaurant_search": 1
+    }
+  },
+  "deny": {
+    "precision": 0.8636363636363636,
+    "recall": 0.7307692307692307,
+    "f1-score": 0.7916666666666666,
+    "support": 26,
+    "confused_with": {
+      "stop": 4,
+      "affirm": 2
+    }
+  },
+  "inform": {
+    "precision": 0.9186991869918699,
+    "recall": 0.9262295081967213,
+    "f1-score": 0.9224489795918367,
+    "support": 122,
+    "confused_with": {
+      "restaurant_search": 9
+    }
+  },
+  "stop": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8571428571428571,
+    "support": 28,
+    "confused_with": {
+      "deny": 2,
+      "goodbye": 1
+    }
+  },
+  "restaurant_search": {
+    "precision": 0.9337748344370861,
+    "recall": 0.9527027027027027,
+    "f1-score": 0.9431438127090301,
+    "support": 148,
+    "confused_with": {
+      "inform": 7
+    }
+  },
+  "affirm": {
+    "precision": 0.9242424242424242,
+    "recall": 1.0,
+    "f1-score": 0.9606299212598425,
+    "support": 61,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 0.9423076923076923,
+    "f1-score": 0.9702970297029703,
+    "support": 52,
+    "confused_with": {
+      "inform": 2,
+      "deny": 1
+    }
+  },
+  "micro avg": {
+    "precision": 0.9268817204301075,
+    "recall": 0.9268817204301075,
+    "f1-score": 0.9268817204301075,
+    "support": 465
+  },
+  "macro avg": {
+    "precision": 0.9172246556467891,
+    "recall": 0.8951849783231517,
+    "f1-score": 0.9048883079945848,
+    "support": 465
+  },
+  "weighted avg": {
+    "precision": 0.9267945451380302,
+    "recall": 0.9268817204301075,
+    "f1-score": 0.926129360762941,
+    "support": 465
+  }
+}

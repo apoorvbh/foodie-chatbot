@@ -1,0 +1,461 @@
+[
+  {
+    "text": "show me a Mexican place in the agra",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "Mexican",
+        "entity": "cuisine"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "value": "agra",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "Mexican",
+        "entity": "cuisine",
+        "confidence": 0.8564435858926996,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show me a Italian place in the agra",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "Italian",
+        "entity": "cuisine"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "value": "agra",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "Italian",
+        "entity": "cuisine",
+        "confidence": 0.9404932583056943,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "kota",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "kota",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "sangli",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "sangli",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "kolkata",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "kolkata",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "700",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "700",
+        "entity": "average_budget"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "somewhere around allahabad",
+    "entities": [
+      {
+        "start": 17,
+        "end": 26,
+        "value": "allahabad",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gurgaon restaurant",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "gurgaon",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "pondicherry south indian restaurant",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "pondicherry",
+        "entity": "location"
+      },
+      {
+        "start": 12,
+        "end": 24,
+        "value": "South Indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "South Indian",
+        "entity": "cuisine",
+        "confidence": 0.9704300541368802,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "looking for american restorant for &gt;700",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "American",
+        "entity": "cuisine"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "value": "More than Rs. 700",
+        "entity": "average_budget"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "American",
+        "entity": "cuisine",
+        "confidence": 0.9634697870040656,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "bengaluru",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "bangalore",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bhilai",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "bhilai",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "<300",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "Lesser than Rs. 300",
+        "entity": "average_budget"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 1,
+        "end": 4,
+        "value": "300",
+        "entity": "average_budget",
+        "confidence": 0.8708507969121326,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I’ll prefer chines",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "Chinese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how about rajahmundry",
+    "entities": [
+      {
+        "start": 10,
+        "end": 21,
+        "value": "rajahmundry",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "chandigarh mexican restaurant",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "chandigarh",
+        "entity": "location"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "value": "Mexican",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "Mexican",
+        "entity": "cuisine",
+        "confidence": 0.9817629189914104,
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "new jersey",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "new jersey",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "new south wales",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "new south wales",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "kakinada location",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "kakinada",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "vietnamese",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "vietnamese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bangalore",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "bangalore",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Lithuania",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Lithuania",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "warangal",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "warangal",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "somewhere around kerala",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "kerala",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "somewhere around manchester city",
+    "entities": [
+      {
+        "start": 17,
+        "end": 32,
+        "value": "manchester city",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gandhinagar",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "gandhinagar",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gurugram food",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "gurgaon",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "french",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "french",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "london",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "london",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "thai",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "thai",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

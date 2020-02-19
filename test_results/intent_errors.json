@@ -1,0 +1,274 @@
+[
+  {
+    "text": "do you have other options to select",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.265840846543513
+    }
+  },
+  {
+    "text": "anything else?",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.8624675179671197
+    }
+  },
+  {
+    "text": "lets skip it for now",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4597778810915078
+    }
+  },
+  {
+    "text": "and that's all",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2823213626236083
+    }
+  },
+  {
+    "text": "heeey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3413971739238356
+    }
+  },
+  {
+    "text": "chinese in gurgaon",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9115675871201683
+    }
+  },
+  {
+    "text": "new zealand",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.5281660090168689
+    }
+  },
+  {
+    "text": "Mexican",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.9703514852381442
+    }
+  },
+  {
+    "text": "mexican",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.9703514852381442
+    }
+  },
+  {
+    "text": "nah thank you",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.380884337259204
+    }
+  },
+  {
+    "text": "nah that's it",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7457641622520488
+    }
+  },
+  {
+    "text": "do you have anything else?",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5683149440593113
+    }
+  },
+  {
+    "text": "have a good one",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.2770273467244309
+    }
+  },
+  {
+    "text": "this rocks",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.42874447390892845
+    }
+  },
+  {
+    "text": "chinese restorant in new york",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8848062624218156
+    }
+  },
+  {
+    "text": "mexican in gurgaon within 300-700",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6063274213399383
+    }
+  },
+  {
+    "text": "and that's it?",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.42532098625386233
+    }
+  },
+  {
+    "text": "hola",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5061056402965936
+    }
+  },
+  {
+    "text": "Hola",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5061056402965936
+    }
+  },
+  {
+    "text": "goobye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9225687007806487
+    }
+  },
+  {
+    "text": "italian restorant in new zealand",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7997024804475994
+    }
+  },
+  {
+    "text": "south indian restorant in kollam",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9726632322490707
+    }
+  },
+  {
+    "text": "in New York",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.98190122178022
+    }
+  },
+  {
+    "text": "anywhere in the bhiwandi",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.5757009750829192
+    }
+  },
+  {
+    "text": "anywhere in chennai",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.5527841956302956
+    }
+  },
+  {
+    "text": "in delhi",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.8666461717465848
+    }
+  },
+  {
+    "text": "new jersey",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.6497587420130394
+    }
+  },
+  {
+    "text": "in madras",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.6266552154192107
+    }
+  },
+  {
+    "text": "do you get anything?",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4275277063326545
+    }
+  },
+  {
+    "text": "american in bhiwandi within 300-700",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.909704916746511
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.780382300417642
+    }
+  },
+  {
+    "text": "do you have anything else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.7470527681077117
+    }
+  },
+  {
+    "text": "You rock!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3479429190599121
+    }
+  },
+  {
+    "text": "goa south indian cafe",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6186003237461174
+    }
+  }
+]
